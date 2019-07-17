@@ -41,7 +41,7 @@ The data set provided, the data set consists attributes of 32 observations of ca
 # The Problem
 As we have 32 observations 11 attributes associated with each observation, we are going to use the miles per gallon and divide it by the weight of each observation. This will return a value to us which we will use to compare the current node with the target node, and check if the target node is better or not and if it is better than the target node becomes the current node else the current nodes stays the same and is compared to another target node and the operation continues till one final value is reached.
 
-#Algorithm
+# Algorithm
 The steepest descent Hill Climbing algorithm:
 
 Step 1: We choose a random node to start with and we set it as ‘current’
@@ -54,5 +54,5 @@ Step 4: If the target node is better than the current node, then we replace the 
 
 Step 5: We continue with Step 3 and 4 until we have a constant value in the current node which is not being replaced by a target node and thus we will reach our solution
 
-#Data Structures
+# Data Structures
 ArrayLists -> To store the values of the calculation for each and every car in the dataset 
